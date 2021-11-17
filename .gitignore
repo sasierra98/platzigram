@@ -107,4 +107,5 @@ venv.bak/
 db.sqlite3
 media/
 /platzigram_env/
+/.idea
 /platzigram/settings.py
