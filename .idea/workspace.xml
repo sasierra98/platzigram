@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aad79e90-3d13-435c-8dc3-98c3b39aabaa" name="Changes" comment="[ADD] User admin added">
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/default-profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/instagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/nav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/users/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/platzigram.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/platzigram.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platzigram/settings_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/platzigram/settings_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platzigram/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/platzigram/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/templates/feed.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/feed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
-    </list>
+    <list default="true" id="aad79e90-3d13-435c-8dc3-98c3b39aabaa" name="Changes" comment="[ADD] New templates" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +93,7 @@
       <workItem from="1637036690577" duration="603000" />
       <workItem from="1637129136341" duration="1954000" />
       <workItem from="1637184819901" duration="26000" />
-      <workItem from="1637465730845" duration="5445000" />
+      <workItem from="1637465730845" duration="6045000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1636779821696</created>
@@ -140,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637467802407</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[ADD] New templates">
+      <created>1637471773794</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1637471773794</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +153,8 @@
     <MESSAGE value="[ADD] New app and models" />
     <MESSAGE value="[ADD] New admin profile" />
     <MESSAGE value="[ADD] User admin added" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD] User admin added" />
+    <MESSAGE value="[ADD] New templates" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD] New templates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
