@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aad79e90-3d13-435c-8dc3-98c3b39aabaa" name="Changes" comment="[ADD] New admin profile">
+    <list default="true" id="aad79e90-3d13-435c-8dc3-98c3b39aabaa" name="Changes" comment="[ADD] User admin added">
+      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/default-profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/users/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/platzigram.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/platzigram.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platzigram/settings_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/platzigram/settings_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platzigram/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/platzigram/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/templates/feed.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/feed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +26,14 @@
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,15 +54,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlite&#10;postgresql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/platzigram" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/platzigram" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/posts" />
     </key>
   </component>
   <component name="RunManager">
@@ -82,7 +110,7 @@
       <workItem from="1637036690577" duration="603000" />
       <workItem from="1637129136341" duration="1954000" />
       <workItem from="1637184819901" duration="26000" />
-      <workItem from="1637465730845" duration="1824000" />
+      <workItem from="1637465730845" duration="5445000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1636779821696</created>
@@ -105,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637184972330</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[ADD] User admin added">
+      <created>1637467802407</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1637467802407</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +162,18 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="[ADD] New app and models" />
     <MESSAGE value="[ADD] New admin profile" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD] New admin profile" />
+    <MESSAGE value="[ADD] User admin added" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD] User admin added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/platzigram/urls.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -59,7 +59,7 @@ class UserAdmin(BaseUserAdmin):
     inlines = (ProfileInline,)
     list_display = (
         'username', 'email', 'first_name',
-        'last_name', 'is_active', 'is_staff '
+        'last_name', 'is_active', 'is_staff'
     )
 
 
