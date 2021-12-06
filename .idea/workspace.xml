@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aad79e90-3d13-435c-8dc3-98c3b39aabaa" name="Changes" comment="[ADD] Login Added">
-      <change afterPath="$PROJECT_DIR$/templates/users/singup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/platzigram.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/platzigram.iml" afterDir="false" />
+    <list default="true" id="aad79e90-3d13-435c-8dc3-98c3b39aabaa" name="Changes" comment="[ADD] Sign Up Added">
+      <change afterPath="$PROJECT_DIR$/platzigram/middleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/users/update_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43eaab28-ded9-4a11-b098-9422f1830d1a.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43eaab28-ded9-4a11-b098-9422f1830d1a/storage_v2/_src_/database/platzigram.9ZXMlw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43eaab28-ded9-4a11-b098-9422f1830d1a/storage_v2/_src_/database/platzigram.9ZXMlw/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43eaab28-ded9-4a11-b098-9422f1830d1a/storage_v2/_src_/database/platzigram.9ZXMlw/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43eaab28-ded9-4a11-b098-9422f1830d1a/storage_v2/_src_/database/platzigram.9ZXMlw/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43eaab28-ded9-4a11-b098-9422f1830d1a/storage_v2/_src_/database/platzigram.9ZXMlw/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43eaab28-ded9-4a11-b098-9422f1830d1a/storage_v2/_src_/database/platzigram.9ZXMlw/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43eaab28-ded9-4a11-b098-9422f1830d1a/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43eaab28-ded9-4a11-b098-9422f1830d1a/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43eaab28-ded9-4a11-b098-9422f1830d1a/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platzigram/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/platzigram/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
@@ -24,6 +31,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -107,7 +115,8 @@
       <workItem from="1637615562650" duration="2446000" />
       <workItem from="1637700270027" duration="3647000" />
       <workItem from="1637774181188" duration="49000" />
-      <workItem from="1638679162621" duration="4870000" />
+      <workItem from="1638679162621" duration="4940000" />
+      <workItem from="1638760674434" duration="3592000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1636779821696</created>
@@ -151,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637704240343</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[ADD] Sign Up Added">
+      <created>1638684132175</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1638684132175</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +192,8 @@
     <MESSAGE value="[ADD] User admin added" />
     <MESSAGE value="[ADD] New templates" />
     <MESSAGE value="[ADD] Login Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD] Login Added" />
+    <MESSAGE value="[ADD] Sign Up Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD] Sign Up Added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
